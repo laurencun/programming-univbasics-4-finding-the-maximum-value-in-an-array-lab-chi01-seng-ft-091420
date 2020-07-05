@@ -1,4 +1,4 @@
 def find_max_value(array)
   # Add your solution here
-  array {|x| x = array.max}
+  array.each {|x| x = array.max}
 end
